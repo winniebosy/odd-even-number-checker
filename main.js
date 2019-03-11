@@ -1,6 +1,6 @@
 "use strict"
 
 
-document.getElementById('oenum').addEventListener('input', function(){
-    console.log(123);
+document.getElementById("oddevennum").addEventListener('input', function(){
+     console.log(12345);
 });
