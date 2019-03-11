@@ -4,13 +4,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Even/Odd Number Checker</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css"> 
     <script src="main.js"></script>
+
 </head>
 <body>
 
-      <header class ="title" >
+      <header class ="title">
           <h1 class ="display-4"> Even-Odd Number Checker</h1>
       </header> 
     
@@ -20,9 +21,9 @@
              <div class ="col-md-6">
                  <form>
                      <div class ="form-group">
-                       <input type ="number"  id ="oddevennum" class ="form-control" placeholder="Enter any number" autofocus>
+                       <input id ="oddeven"  type ="number"   class ="form-control form-control-md" placeholder="Enter any number" autofocus>
                       </div> 
-                        <button id ="button"  class ="btn btn-success">Check Number</button>
+                        <button onclick ="checkNumber(event)" class ="btn btn-success">Check Number</button>
 
                         <h1 class ="display-4"> Output:  <span id ="output"></span></h1>
 
