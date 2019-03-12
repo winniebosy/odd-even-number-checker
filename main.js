@@ -1,9 +1,18 @@
-function checkNumber(event){
-
-    let num = document.getElementById("").addEventListener()
 
 
+window.onload = function(){
+let input = document.querySelector('#oddeven');
+input.addEventListener('input', function(e){
+   let num =e.target.value;
+   
+    let btn = document.querySelector('#btn').addEventListener('click' ,function(){
+    console.log(e);
+    console.log("heyyyyy");
+});
+ 
+});
 
+ 
 }
 
 
@@ -11,7 +20,19 @@ function checkNumber(event){
 
 
 
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
