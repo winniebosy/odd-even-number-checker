@@ -48,23 +48,4 @@ input.addEventListener('input', function(e){ // creates an input event when a us
 
 
 
-/*
-
-let num = e.target.value;
-let templatee = `is even`;
-let templateo = `is odd`;
-    if (num %2==0){
-        document.getElementById("output").innerHTML = num  +  templatee ;
-
-    }
-    else{
-        document.getElementById("output").innerHTML = num  +  templateo ;
-    }
-document.getElementById("button").addEventListener("click", function(e){ 
-      
-});
-
-
-
-
-*/ 
+//alws remember to declare functions first.
